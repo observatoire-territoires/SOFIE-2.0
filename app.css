@@ -1,0 +1,451 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css')
+
+body{
+	font-family : 'Ubuntu', sans-serif;
+}
+
+.container{
+	height : 100vh;
+}
+
+/* INTRO */
+#intro-frise{
+	height : auto;
+	width : 100% ;
+}
+
+#logosrow{
+	background-color : #f8f9f9 ;
+	padding : 1em ;
+}
+
+#maincont{
+	background-color : #f8f9f9 ;
+}
+
+#logos{
+	height : 9vh ;
+	background-color : #f8f9f9 ;
+}
+
+#logos img{
+	margin-left : 2vw ;
+	margin-top : 1em ;
+	float : right ;
+}
+
+#intro-texte{
+	margin-top : 5vh ;
+	margin-left : 5vw ;
+	text-align : left ;
+	color : #404040 ;
+}
+
+.intro-obj{
+	font-size : 1.2em ;
+}
+
+#intro-btn{
+	margin-top : 7vh ;
+}
+
+#introtitle{
+	font-family:'Bree Serif' ;
+	font-weight : bold ; 
+	font-size : 5em !important ;
+	line-height : 1em ;
+	letter-spacing : 0.1em ;
+	color : #6e2150 ;
+}
+
+#sub{
+	font-style : italic ;
+}
+
+#maincont button:hover{
+	background-color : #e8d5e1 !important;
+	color : #6e2150 !important;
+}
+
+#maincont button{
+	border-radius : 50px ;
+	font-size : 1.2em ;
+	margin-right : 10vw ;
+	background-color : #6e2150 !important;
+	color : #f8f9f9  !important;
+}
+
+#maincont a {
+	color : #6e2150 ;
+	display : inline ;
+	margin-right : 2vw ;
+}
+
+/* GENERAL VISU */
+#c1, #c2, #c3, #c4{
+	background-color : #f8f9f9 ;
+}
+
+#c2, #c3, #c4{
+	display : none ;
+}
+
+#nomEPCI, #nomEPCI2, #nomEPCI3{
+	margin-top : 10vh ;
+	height : 5vh ; 
+	width : 100% ; 
+	text-align : right ;
+	font-size : 1.5em ; 
+	font-weight : bold ;
+	padding-right : 20px ;
+	color : #808080 ;
+}
+
+#dalej{
+	float : right ;
+	text-align : right ;
+}
+
+.btn{
+	clear : both !important;
+	width : auto !important;
+	border : 1px solid #f8f9f9 !important; 
+	color : white !important; 
+	background-color : #6e2150 !important;
+	border-radius : 2 !important;
+}
+
+.btn:hover{
+	background-color : #00CC99 !important;
+}
+
+.link{
+	text-decoration : underline black ; 
+	color : black ; 
+}
+
+.link:hover{
+	text-decoration : none ;
+	color : black ;
+}
+
+/* *********************** */
+/* BANDEAU DE TITRE */
+.navbar{
+	background-color : #6e2150 ;
+}
+
+#maintitle{
+	font-family:'Bree Serif' ;
+	font-weight : bold ; 
+	font-size : 2em ;
+	line-height : 0em ;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color : white ;
+}
+
+.nav-link{
+	color : white ;
+}
+
+.nav-link:hover{
+	color : #00CC99 ;
+}
+
+ul.navbar-nav > li .active { 
+    color: #00CC99 ; 
+}
+
+
+.btn.btn-outline-success{
+	border : 1px solid white ;
+	color : white ;
+}
+
+.btn.btn-outline-success:hover{
+	background-color : #00CC99 ;
+}
+
+/* *********************** */
+/* RECHERCHE */
+#visu-intro{
+	font-size : 1.2em ;
+}
+
+#form{
+	height : 100% ;
+}
+
+#form form{
+	width:50%; 
+    margin:  auto;
+}
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+  border-radius : 0 ;
+  height : auto ;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+#go{
+	background-color : #6e2150;
+}
+
+#go:hover{
+	background-color : #00CC99 ;
+}
+/* *********************** */
+/* CARTE */
+#mapcontainer {
+	height : 70vh ;
+	margin-top : 2vh ;
+	margin-bottom : 2vh ;
+}
+
+.info{
+    padding: 6px 8px;
+    font: 14px/16px 'Ubuntu', sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4{
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.labels{
+  border: none;
+}
+
+.leaflet-tooltip.labels{
+	padding:1px;
+	border: transparent;
+	box-shadow: none;
+}
+
+.leaflet-tooltip-left.labels::before{
+	border: none;
+}
+.leaflet-tooltip-right.labels::before{
+  border: none;
+}
+
+/* *********************** */
+/* GRAPHIQUES */
+.form-check.form-switch{
+	float : right ;
+}
+
+.form-check-input:checked{
+	background-color: grey !important;
+    border-color: grey !important;
+}
+
+svg text{
+	font-size : 1.3em ;
+}
+
+div.tooltip{
+  position: absolute;
+  text-align: left;
+  width: 150px;
+  padding: 2px;
+  font-size : 0.9em ;
+  background: dimgrey;
+  color : white ;
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.tick line{
+  visibility:hidden;
+}
+
+.legende{
+	width : 100% ;
+	cursor : pointer ;
+}
+
+#close{
+	width : 4% ;
+	margin-left  : 8% ;
+	margin-bottom  : 4% ;
+	margin-top : 1% ;
+	height : auto ;
+	float : right ;
+	cursor : pointer ;
+}
+
+#popup{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	z-index : 100 ;
+	background-color : white ;
+	border : 10px solid rgba(0, 0, 0, .7);
+	padding-top : 1% ;
+	padding : 1% ;
+	border-radius : 5px ;
+	text-align : justify ;
+	display : none ; 
+}
+
+
+/* *********************** */
+/* COMMENTAIRES */
+#com1, #com2{
+	padding-top : 3vh ;
+	padding-left : 3vw ;
+	padding-right : 3vw ;
+}
+
+#bloccom1, #bloccom2{
+	height : 70vh ;
+	overflow : scroll ;
+	overflow-x: hidden;
+}
+
+.indcmax{
+	color : #92576F ; 
+	font-weight : bold ;
+}
+
+h4{
+	font-size : 1.2em !important ;
+}
+
+/* DICTIONNAIRE */
+#bloctitre2, #apropos-bloc{
+	margin-top : 10vh ;
+	margin-left : 3vw ;
+}
+#titre2{
+	font-family:'Bree Serif' ;
+	font-weight : bold ; 
+	font-size : 2em ;
+	color : #6e2150;
+}
+
+#navindic{
+	margin-left : 3vw ;
+}
+
+element.style {
+}
+.accordion-flush .accordion-item:first-of-type .accordion-button {
+    border-top-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+.accordion-flush .accordion-button {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;   
+	border-bottom: 1px solid #F1D0E4;
+	background-color: #F1D0E4 !important;
+    color: #6E2150 !important;
+    outline: none !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border : 0 !important ;
+    outline: 0;
+    box-shadow: none!important;
+}
+.accordion-button:hover {
+    z-index: 2;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.accordion-body:hover{
+	background-color : #eaeae6 ;
+	cursor : pointer ;
+}
+
+.accordion-body:target{
+	font-weight : bold ;
+	cursor : pointer ;
+}
+
+.accordion-button::after{
+	background-image : none!important;
+}
+
+#dico-illus img{
+	width : 100% ;
+}
+
+.dico-libindic, .apropos-subtitle{
+	font-size : 1.1em ;
+	font-weight : bold 
+}
+
+.dico-sourcindic{
+	font-size : 0.9em ; 
+	font-style : italic ;
+	color : #808080 ;
+	line-height : 0 ;
+}

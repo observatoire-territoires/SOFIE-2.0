@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "prefreg",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4236" } },
+"features": [
+{ "type": "Feature", "properties": { "lib_com": "Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.428472964393205, 43.290428927495071 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Dijon" }, "geometry": { "type": "Point", "coordinates": [ 5.044039602590029, 47.320260287314312 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Ajaccio" }, "geometry": { "type": "Point", "coordinates": [ 8.706810601861543, 41.933117149965376 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Toulouse" }, "geometry": { "type": "Point", "coordinates": [ 1.438644860350372, 43.594108823442653 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Bordeaux" }, "geometry": { "type": "Point", "coordinates": [ -0.566529943456088, 44.855638047197452 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Rennes" }, "geometry": { "type": "Point", "coordinates": [ -1.674644705331225, 48.109070004745057 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Nantes" }, "geometry": { "type": "Point", "coordinates": [ -1.54045706213129, 47.23035081632198 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Orléans" }, "geometry": { "type": "Point", "coordinates": [ 1.92730392543666, 47.866961612882022 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Lille" }, "geometry": { "type": "Point", "coordinates": [ 3.053618331647074, 50.628837803582165 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Strasbourg" }, "geometry": { "type": "Point", "coordinates": [ 7.773495325755318, 48.567977477373489 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Lyon" }, "geometry": { "type": "Point", "coordinates": [ 4.842365693907792, 45.752843285338017 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Paris" }, "geometry": { "type": "Point", "coordinates": [ 2.349233766422442, 48.854205358175349 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Rouen" }, "geometry": { "type": "Point", "coordinates": [ 1.102782573909254, 49.439082861620697 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Basse-Terre" }, "geometry": { "type": "Point", "coordinates": [ -4.413287793029122, 45.059107033681265 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Fort-de-France" }, "geometry": { "type": "Point", "coordinates": [ -3.728190274451713, 44.052955438482641 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Cayenne" }, "geometry": { "type": "Point", "coordinates": [ -2.325858393495445, 42.976288480651242 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Saint-Denis" }, "geometry": { "type": "Point", "coordinates": [ -2.471501954244469, 44.817671626308012 ] } },
+{ "type": "Feature", "properties": { "lib_com": "Dzaoudzi" }, "geometry": { "type": "Point", "coordinates": [ -1.823603660435188, 45.633070036316269 ] } }
+]
+}

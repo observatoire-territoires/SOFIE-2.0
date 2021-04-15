@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+	<title>SOFIE 2.0</title>
+	<link rel="stylesheet" href="app.css">
+	<link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+		<link rel="icon" href="img/favicon.ico" />
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg">
+  <div class="container-fluid">
+	<a id="maintitle" href="index.html">SOFIE</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html" title="Page d'accueil">Accueil</a>
+        </li>
+        <li class="nav-item">
+		  <a class="nav-link" aria-current="page" href="visu.html" title="Diagnostic local">Diagnostic</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link" aria-current="page" href="dico.html" title="Dictionnaire de données">Données</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="apropos.html" title="À propos">À propos</a>
+        </li>
+	  </ul>
+	  <!-- <form class="d-flex"> -->
+		<!-- <input class="form-control me-2" type="search" placeholder="Autre EPCI" aria-label="Search"> -->
+		<!-- <button class="btn btn-outline-success" type="submit">Chercher</button> -->
+	  <!-- </form> -->
+	</div>
+  </div>
+</nav>
+
+<div class = "row" id = "apropos-bloc">
+	<div class = "col-sm-6">
+		<p id = "titre2">À propos de SOFIE 2.0</p>
+		<br/>
+		<p>Depuis plusieurs années, l’Observatoire des territoires de l’ANCT conduit un certain nombre de travaux pour améliorer la connaissance de la dimension territoriale des inégalités entre les femmes et les hommes :</p>
+		<ul>
+			<li>contribution à la publication de notes de synthèse sur la situation des femmes dans les territoires ruraux,</li>
+			<li>diffusion de données sexuées sur <a target="_blank" class = "link" href = "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/#view=map36&c=indicator">l’interface de cartographie interactive</a> (plus de 70 indicateurs déclinés par genre) depuis 2018, </li>
+			<li>production d’une première version de l’application SOFIE en mars 2019,</li>
+			<li>publication d’une fiche d’analyse : <a target="_blank" class = "link" href = "https://www.observatoire-des-territoires.gouv.fr/actualites/fiche-danalyse-10-dimension-territoriale-de-lacces-lemploi-des-femmes">La dimension territoriale de l’accès à l’emploi des femmes</a> en 2021.</li>
+		</ul>
+		<p>Une étude pilotée par le CGET en 2018 a par ailleurs démontré que si les freins directs (formation, métiers, secteurs d’activité, marché de l’emploi) et indirects (conditions de travail, situation familiale, modes de garde, mobilité…) à l’accès à l’emploi des femmes ne sont pas spécifiques aux territoires peu denses, leur caractère rural a un effet amplificateur sur ces difficultés, ce qui est également le cas des quartiers prioritaires de la politique de la ville.</p>
+		<p>La seconde version de l’application SOFIE s’inscrit dans le prolongement de ces travaux.</p>
+		<p class = "apropos-subtitle">Objectifs<p>
+		<p>SOFIE a pour objectif d’<strong>aider à la réalisation de diagnostics territorialisés de l’accès à l’emploi des femmes</strong> en dressant au niveau des intercommunalités et établissements publics territoriaux de la métropole du Grand Paris (en comparaison avec la France entière et les autres intercommunalités et EPT), <strong>un portrait de la situation des femmes face à l’emploi et des principaux freins et leviers pouvant l’améliorer</strong>. Cette application vise à fournir des clés pour se saisir de la question dans les politiques locales et partenariales conduites à l’échelle des intercommunalités (notamment les contrats de ruralité et les contrats de ville) en s'appuyant sur les outils et bonnes pratiques présentés dans le guide susmentionné.</p>
+		<p>Les indicateurs présentés dans SOFIE 2.0, non exhaustifs, pourront être complétés, notamment par d’autres données qualitatives définies localement en lien avec les différents acteurs concernés et auprès des bénéficiaires elles-mêmes.</p>
+		<p class = "apropos-subtitle">Documentation<p>
+		<ul>
+			<a target="_blank" class = "link" href = "https://www.observatoire-des-territoires.gouv.fr/actualites/fiche-danalyse-10-dimension-territoriale-de-lacces-lemploi-des-femmes"><li>Fiche d’analyse <em>La dimension territoriale de l’accès à l’emploi des femmes</em>, Observatoire des territoires, 2021</li></a>
+			<a target="_blank" class = "link" href = "https://www.observatoire-des-territoires.gouv.fr/kiosque/2021-egalite-06b-la-situation-des-femmes-residant-en-quartiers-prioritaires-de-la-politique"><li>« La situation des femmes résidant en quartiers prioritaires de la politique de la ville (QPV) sur le marché du travail », dans la fiche d’analyse <em>La dimension territoriale de l’accès à l’emploi des femmes</em>, Observatoire des territoires, 2021</li></a>
+			<a target="_blank" class = "link" href = "https://www.reseaurural.fr/sites/default/files/documents/fichiers/2019-03/2019_rrf_rapport_guide_emploi_des_femmes_territoires_ruraux_cget.pdf"><li>Guide Favoriser l’accès à l’emploi des femmes dans les territoires ruraux : outils et bonnes pratiques, (CGET, SDFE, DGEFP, 8 mars 2019) </li></a>
+			<a target="_blank" class = "link" href = "https://www.egalite-femmes-hommes.gouv.fr/publications/droits-des-femmes/egalite-entre-les-femmes-et-les-hommes/vers-legalite-reelle-entre-les-femmes-et-les-hommes-chiffres-cles-edition-2020/"><li><em>Vers l’égalité réelle entre les femmes et les hommes : chiffres clés – édition 2020 </em>(secrétariat d’Etat chargé de l’égalité entre les femmes et les hommes)</li></a>
+			<a target="_blank" class = "link" href = "https://www.haut-conseil-egalite.gouv.fr/stereotypes-et-roles-sociaux/travaux-du-hce/article/rapport-egaliter-combattre"><li>Rapport EGALITER, « Combattre maintenant les inégalités sexuées, sociales et territoriales dans les quartiers de la politique de la ville et dans les territoires ruraux fragilisés », Haut-conseil à l’égalité entre les femmes et les hommes (juin 2014)</li></a>
+			<a target="_blank" class = "link" href = "https://femmes.gouv.fr/wp-content/uploads/2013/12/20131209-rapport-emploi-femmes-Severine-Lemiere.pdf"><li>Rapport « L’accès à l’emploi des femmes : une question de politiques… », rapport d’une mission sur l’emploi des femmes réalisée à la demande du Ministère des Droits des Femmes entre mars et octobre 2013 et pilotée par Séverine Lemière</li></a>
+			<a target="_blank" class = "link" href = "https://www.centre-hubertine-auclert.fr/"><li>Travaux du centre de ressources Hubertine Auclert</li></a>
+		</ul>
+		<p class = "apropos-subtitle">Crédits et licence<p>
+		<p>La construction des indicateurs est détaillée dans l'onglet Données. La description des indicateurs statistiques utilisés dans l'application inclut des liens vers de la documentation, spécifique à chaque indicateur.</p>
+		<p>Les scripts ayant servi à la construction de l'application sont disponibles au lien suivant : <a target="_blank" class = "link" href = "https://github.com/observatoire-territoires/SOFIE">https://github.com/observatoire-territoires/SOFIE</a></p>
+		<p>Cette application est disponible en licence libre AGPL. Elle est conçue et développée par Constance Lecomte, Observatoire des territoires (ANCT) grâce notamment à la librairie de datavisualisation <a target="_blank" class = "link" href = "https://d3js.org/">d3.js</a> développée par Mike Bostock. Les cartes présentes dans le dictionnaire de données ont été réalisées par Mélodie Martin, service de cartographie, ANCT. Dans sa première version, SOFIE a bénéficié de l’appui thématique d’Eric Lenoir (ANCT). La seconde version de SOFIE n'aurait pas été la même sans les retours attentifs des membres du pôle Analyse et diagnostic territoriaux (ADT) de l'ANCT. Un grand merci à elles et eux.</p>
+		<br/>
+		<p style = "color : #6e2150; font-size : 1.1em ; font-weight : bold; font-style : italic;">Des questions ? Des suggestions ? Contactez-nous via notre <a target="_blank" class = "link" href = "https://www.observatoire-des-territoires.gouv.fr/form/nous-contacter">plateforme de contact</a> ou par courriel à observatoire@anct.gouv.fr.</p>
+		<br/>
+	</div>	
+</div>	
+
+</body>

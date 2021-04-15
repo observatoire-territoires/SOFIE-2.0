@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+	<title>SOFIE 2.0</title>
+	<link rel="stylesheet" href="app.css">
+	<link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+	<link rel="icon" href="img/favicon.ico" />
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div id = "maincont">
+	<div class = "row">
+		<div class = "col-sm-3">
+			<img id = "intro-frise" src = "img/intro-img.png"/>
+		</div>
+		<div class = "col-sm-9">
+			<div class = "row" id = "logosrow">
+				<div class = "col-sm-12" id = "logos">
+					<img src = "img/logo_OT.png" style = "height : 80%;"/>
+					<img src = "img/ANCT_Logo.png" style = "height : 100%;"/>
+				</div>
+			</div>
+			<div class = "row" id = "intro-texte">
+				<br/>
+				<p>Bienvenue sur</p>
+				<p id = "introtitle">SOFIE</p>
+				<p id = "sub">Système d'observation sur les femmes<br/>et d'information sur l'emploi</p>
+				<br/><br/>
+				<p>SOFIE vous aide à établir votre propre bilan de l’accès des femmes à l’emploi dans votre territoire<br/>et vous fournit des clés pour vous saisir de la question dans les politiques locales.</p>
+				<br/><br/><br/><br/>
+				<p class = "intro-obj"><i class="bi bi-arrow-right-circle-fill"></i> Faire un <strong>diagnostic local</strong> de l'insertion professionnelle et des conditions d'emploi des femmes</p>
+				<p class = "intro-obj"><i class="bi bi-arrow-right-circle-fill"></i><strong> Comparer</strong> son territoire avec les territoires environnants</p>
+				<p class = "intro-obj"><i class="bi bi-arrow-right-circle-fill"></i> Identifier des <strong>leviers potentiels</strong> pour améliorer l'accès à l'emploi des femmes</p>
+				<div id = "intro-btn">
+					<button type="button" class="btn" onclick = "toVisu()"><i class="bi bi-arrow-right-circle-fill"></i>&nbsp;&nbsp;Faire son diagnostic local</button>
+					<br/><br/>
+					<a target = "_blank"  href = "dico.html">Données</a>
+					<a target = "_blank"  href = "apropos.html">À propos</a>
+				<div>
+				<br/><br/><br/>
+			</div>
+		</div>
+	</div>
+<div>
+
+<script>
+toVisu = function(){
+	window.location.href = 'visu.html';
+}
+toDico = function(){
+	window.location.href = 'dico.html';
+}
+toApropos = function(){
+	window.location.href = 'apropos.html';
+}
+</script>
+
+</body>
