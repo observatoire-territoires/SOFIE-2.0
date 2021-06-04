@@ -87,10 +87,6 @@
 	</div>
 </div>
 <div class = "container" id = "c3">
-	<div id= "popup">
-		<img id = "exp-close" src = "img/close.png"></img>
-		<div id = "text"></div>
-	</div>
 	<div class = "row">
 		<div class = "col-12" id = "nomEPCI2"></div>
 	</div>
@@ -143,10 +139,6 @@
 	</div>
 </div>
 <div class = "container" id = "c4">
-	<div id= "popup">
-		<img id = "exp-close" src = "img/close.png"></img>
-		<div id = "text"></div>
-	</div>
 	<div class = "row">
 		<div class = "col-12" id = "nomEPCI3"></div>
 	</div>
@@ -1076,19 +1068,6 @@ $('#help-close-1').click(function(){
 $('#help-close-2').click(function(){
 	$('#help-modal-2').modal('hide')
 }) ;
-
-function disp_popups2(){
-	$("#popup").css("display", "block") ;
-	$("#text").html( "" );
-	$("#text").html(`
-		<p><strong>Comment lire ce graphique ?</strong></p>
-		<br/>
-		<p>Dans ce graphique, les valeurs sont standardisées en référence à la valeur nationale qui vaut 100 pour chaque indicateur. La ligne en pointillés représente cette valeur nationale. <strong>Plus les valeurs sont situées à gauche de cette ligne moins le phénomène est marqué</strong> comparativement à la situation nationale ; inversement, <strong>plus les valeurs sont situées à droite de cette ligne et plus la situation est marquée</strong> comparativement à la situation nationale.</p>
-		<br/>
-		<p>Pour en savoir plus sur les indicateurs de freins potentiels, rendez-vous sur le <a href = "dico.html" target = "_blank">dictionnaire de données de SOFIE</a>.</p>
-	`);	
-	$("#exp-close").click(function() {$("#popup").css("display", "none") ; }) ;
-}
 
 </script>
 
