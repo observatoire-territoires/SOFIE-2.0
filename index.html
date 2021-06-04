@@ -18,6 +18,23 @@
 <body>
 
 <div id = "maincont">
+	<!-- Pop-up -->
+	<div class="modal fade" id="intro-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Attention</h5>
+			<button type="button" class="btn-close" id = "intro-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body">
+			Cette application n'est pas adaptée aux supports de type smartphone et tablettes.
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
 	<div class = "row">
 		<div class = "col-sm-3">
 			<img id = "intro-frise" src = "img/intro-img.png"/>
@@ -43,8 +60,9 @@
 				<div id = "intro-btn">
 					<button type="button" class="btn" onclick = "toVisu()"><i class="bi bi-arrow-right-circle-fill"></i>&nbsp;&nbsp;Faire son diagnostic local</button>
 					<br/><br/>
-					<a target = "_blank"  href = "dico.html">Données</a>
-					<a target = "_blank"  href = "apropos.html">À propos</a>
+					<a target = "_blank" class = "link" href = "dico.html"><span class = "link-box">Cartes & données</span></a>
+					<a target = "_blank" class = "link" href = "apropos.html"><span class = "link-box">À propos</span></a>
+					<a target = "_blank" class = "link" href = "help.html"><span class = "link-box">Aide</span></a>
 				<div>
 				<br/><br/><br/>
 			</div>
@@ -53,6 +71,14 @@
 <div>
 
 <script>
+$(document).ready(function() {
+	if (!sessionStorage.getItem('shown-modal')){
+		$("#intro-modal").modal('show')
+		localStorage.setItem("hasCodeRunBefore", true);	
+		sessionStorage.setItem('shown-modal', 'true');
+	}
+});
+
 toVisu = function(){
 	window.location.href = 'visu.html';
 }

@@ -2,7 +2,7 @@ const DEFAULTS = {
   treshold: 2,
   maximumItems: 5,
   highlightTyped: true,
-  highlightClass: 'text-primary',
+  highlightClass: 'autoc-highlight',
 };
 
 class Autocomplete {
@@ -64,6 +64,7 @@ class Autocomplete {
       label = item.label.substring(0, idx)
         + `<span class="${className}">${item.label.substring(idx, idx + lookup.length)}</span>`
         + item.label.substring(idx + lookup.length, item.label.length);
+			
     } else
       label = item.label;
     return ce(`<button type="button" class="dropdown-item" data-value="${item.value}">${label}</button>`);

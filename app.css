@@ -11,6 +11,12 @@ body{
 }
 
 /* INTRO */
+.btn-close#intro-close{
+	background-color : white !important;
+	color : yellow ;
+	opacity : 1 ;
+}
+
 #intro-frise{
 	height : auto;
 	width : 100% ;
@@ -72,7 +78,6 @@ body{
 #maincont button{
 	border-radius : 50px ;
 	font-size : 1.2em ;
-	margin-right : 10vw ;
 	background-color : #6e2150 !important;
 	color : #f8f9f9  !important;
 }
@@ -103,14 +108,7 @@ body{
 	color : #808080 ;
 }
 
-#dalej{
-	float : right ;
-	text-align : right ;
-}
-
 .btn{
-	clear : both !important;
-	width : auto !important;
 	border : 1px solid #f8f9f9 !important; 
 	color : white !important; 
 	background-color : #6e2150 !important;
@@ -118,12 +116,21 @@ body{
 }
 
 .btn:hover{
-	background-color : #00CC99 !important;
+	background-color : #e8d5e1 !important;
+	color : #6e2150 !important;
 }
 
 .link{
-	text-decoration : underline black ; 
+	text-decoration : none ; 
 	color : black ; 
+}
+
+.link-box{
+    box-shadow: inset 0 -0.5em 0 0 #F1D0E4;
+}
+
+.link-box:hover{
+    background-color : #F1D0E4;
 }
 
 .link:hover{
@@ -231,12 +238,21 @@ input[type=submit] {
   background-color: DodgerBlue !important;
   color: #ffffff;
 }
+
+.autoc-highlight{
+	background-color :  #e8d5e1 ; 
+	color : #6e2150;
+	pointer-events: none;
+}
+
 #go{
 	background-color : #6e2150;
+	 border-radius : 5px ;
 }
 
 #go:hover{
-	background-color : #00CC99 ;
+	background-color : #e8d5e1 !important;
+	color : #6e2150 !important;
 }
 /* *********************** */
 /* CARTE */
@@ -313,32 +329,13 @@ div.tooltip{
 	cursor : pointer ;
 }
 
-#close{
-	width : 4% ;
-	margin-left  : 8% ;
-	margin-bottom  : 4% ;
-	margin-top : 1% ;
-	height : auto ;
-	float : right ;
-	cursor : pointer ;
+.btn#help-btn-1, .btn#help-btn-2{
+	background-color : #f8f9f9 !important;
 }
 
-#popup{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 30%;
-	z-index : 100 ;
-	background-color : white ;
-	border : 10px solid rgba(0, 0, 0, .7);
-	padding-top : 1% ;
-	padding : 1% ;
-	border-radius : 5px ;
-	text-align : justify ;
-	display : none ; 
+.btn.help-btn-1:hover, .btn.help-btn-2:hover{
+	background-color : #f8f9f9 !important;
 }
-
 
 /* *********************** */
 /* COMMENTAIRES */
@@ -363,8 +360,9 @@ h4{
 	font-size : 1.2em !important ;
 }
 
-/* DICTIONNAIRE */
-#bloctitre2, #apropos-bloc{
+/* *********************** */
+/* DICTIONNAIRE, A PROPOS, AIDE */
+#bloctitre2, #apropos-bloc, #help-bloc{
 	margin-top : 10vh ;
 	margin-left : 3vw ;
 }
@@ -397,14 +395,16 @@ button:focus:not(:focus-visible) {
     border-right: 0;
     border-left: 0;
     border-radius: 0;   
-	border-bottom: 1px solid #F1D0E4;
-	background-color: #F1D0E4 !important;
-    color: #6E2150 !important;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #8e4d77 !important;
+    color:  white !important;
     outline: none !important;
 }
 .accordion-button:focus {
     z-index: 3;
-    border : 0 !important ;
+    border-top: 1px solid white !important;
+	border-bottom: 1px solid white !important;
     outline: 0;
     box-shadow: none!important;
 }
@@ -421,13 +421,12 @@ button:focus:not(:focus-visible) {
 }
 
 .accordion-body:hover{
-	background-color : #eaeae6 ;
+	background-color :  #FAEFF6 ;
 	cursor : pointer ;
 }
 
-.accordion-body:target{
-	font-weight : bold ;
-	cursor : pointer ;
+.accordion-body.active{
+	background-color : #FAEFF6 ;
 }
 
 .accordion-button::after{
@@ -449,3 +448,4 @@ button:focus:not(:focus-visible) {
 	color : #808080 ;
 	line-height : 0 ;
 }
+

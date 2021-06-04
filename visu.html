@@ -43,10 +43,13 @@
 		  <a class="nav-link active" aria-current="page" href="visu.html" title="Diagnostic local">Diagnostic</a>
         </li>
 		<li class="nav-item">
-		  <a class="nav-link" aria-current="page" href="dico.html" title="Dictionnaire de données">Données</a>
+		  <a class="nav-link" aria-current="page" href="dico.html" title="Dictionnaire de données">Cartes & données</a>
         </li>
 		<li class="nav-item">
 		  <a class="nav-link" aria-current="page" href="apropos.html" title="À propos">À propos</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link" aria-current="page" href="help.html" title="Aide">Aide</a>
         </li>
       </ul>
       <!-- <form class="d-flex"> -->
@@ -58,11 +61,11 @@
 </nav>
 	<div class = "row" id = "form">
 		<form autocomplete="off" id "form">
-		<p id = "visu-intro">Entrez le nom de <strong>votre intercommunalité / EPT</strong><br/>pour accéder à un bilan de l'accès à l'emploi des femmes<br/><i>dans votre territoire</i></p>
+		<p id = "visu-intro">Entrez le nom de <strong>votre intercommunalité (EPCI / EPT)</strong><br/>pour accéder à un bilan de l'accès à l'emploi des femmes<br/><i>dans votre territoire</i></p>
 		  <div class="autocomplete" style="width:35vw;">
 			<input type="text" class="form-control" id="myAutocomplete" placeholder="Votre intercommunalité" autocomplete="off">
 			<br/>
-			<em><a class = "link" target = "_blank" href = "https://www.insee.fr/fr/recherche/recherche-geographique?debut=0"><p>Pour connaître le nom de votre intercommunalité, c'est par ici</p></a></em>
+			<em><a class = "link" target = "_blank" href = "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/#c=indicator&i=_zon_.epci_ept&view=map36"><p<span class = "link-box">Consulter la carte des EPCI / EPT</span></p></a></em>
 			<input type="submit" value = "On y va !" id = "go" style="float:right;">
 		  </div>
 		</form>
@@ -76,13 +79,16 @@
 		<div class="col-sm-12">
 		</div>
 	</div>
-	<div class = "row" id = "dalej">
-		<button type="button" class="btn" id = "godet" onclick = "godet()">Et dans le détail ?</button>
+	<div class = " visu-dalej">
+		<div class="col-sm-12 text-center" >
+			<button type="button" class="btn" id = "visu-dalej-btn" onclick = "dalej()"><i class="bi bi-arrow-down-circle-fill"></i>&nbsp;Voir la suite</button>
+			<a href = "dico.html" target = "_blank" class = "link">&nbsp;&nbsp;&nbsp;<span class = "link-box"><i class="bi bi-arrow-right-circle-fill"></i>&nbsp;Comprendre les indicateurs</span></a>
+		</div>
 	</div>
 </div>
 <div class = "container" id = "c3">
 	<div id= "popup">
-		<img id = "close" src = "img/close.png"></img>
+		<img id = "exp-close" src = "img/close.png"></img>
 		<div id = "text"></div>
 	</div>
 	<div class = "row">
@@ -96,23 +102,49 @@
 		</div>
 		<div id="dataviz">
 		</div>
-		<img onclick = "disp_popups()" class = "legende" src = "img/legende_gr1.png"/>
+		<!-- Accès aide graphique 1 -->
+		<button type="button" class="btn btn-primary" id = "help-btn-1" data-toggle="modal" data-target="#help-modal-1">
+		  <img  class = "legende" src = "img/legende_gr1.png"/>
+		</button>
+		<!-- Modal -->
+		<div class="modal fade" id="help-modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Comment lire ce graphique ?</h5>
+				<button type="button" class="btn-close" id = "intro-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				<p>Dans ce graphique, les valeurs sont standardisées en référence à la valeur nationale pour les femmes qui vaut 100 pour chaque indicateur. La ligne en pointillés représente cette valeur nationale. <strong>Plus les valeurs sont situées à gauche de cette ligne moins le phénomène est marqué</strong> comparativement à la situation des femmes en France ; inversement, <strong>plus les valeurs sont situées à droite de cette ligne et plus la situation est marquée</strong> comparativement à la situation des femmes en France.</p>
+				<p>Par défaut, les valeurs représentées sous forme de points décrivent la situation des femmes. Il est possible de <strong>comparer</strong> celle-ci <strong>avec la situation des hommes</strong> en activant le petit bouton en haut à droite du graphique. De la même façon que pour les femmes, les valeurs des indicateurs pour les hommes sont standardisées en référence à la valeur nationale pour les femmes qui vaut 100.</p>
+				<p><em><strong>Attention :</strong> ce graphique permet ainsi de comparer d’une part la situation des femmes localement avec la situation des femmes en France en général et d’autre part la situation des femmes localement avec la situation des hommes localement, mais pas la situation des hommes localement avec la situation des hommes en France en général.</em></p>
+				<br/>
+				<p>Pour en savoir plus sur les indicateurs d'insertion professionnelle et de conditions d'emploi, rendez- vous sur le <a href = "dico.html" target = "_blank" class = "link"><span class = "link-box">dictionnaire de données de SOFIE</span></a>.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" id = "help-close-1" data-dismiss="modal">Fermer</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
 	  </div>
 	  <div class="col-lg-6">
 		<div class = "row" id = "bloccom1">
 			<div id ="com1">
 			</div>
 		</div>
-		<div class = "row" id = "dalej">
-			 <button type="button" class="btn" id = "gofreins" onclick = "gofreins()">Quels freins potentiels ?</button>
-		</div>
 	  </div>
+	  </div>
+	<div class = "row visu-dalej">
+		<div class="col-sm-12 text-center">
+			<button type="button" class="btn" id = "visu-dalej2-btn" onclick = "dalej2()"><i class="bi bi-arrow-down-circle-fill"></i>&nbsp;Voir la suite</button>
+			<a href = "dico.html" target = "_blank" class = "link">&nbsp;&nbsp;&nbsp;<span class = "link-box"><i class="bi bi-arrow-right-circle-fill"></i>&nbsp;Comprendre les indicateurs</span></a>
+		</div>
 	</div>
-	
 </div>
 <div class = "container" id = "c4">
 	<div id= "popup">
-		<img id = "close" src = "img/close.png"></img>
+		<img id = "exp-close" src = "img/close.png"></img>
 		<div id = "text"></div>
 	</div>
 	<div class = "row">
@@ -122,18 +154,42 @@
 	  <div class="col-lg-6">
 		<div id="dataviz2">
 		</div>
-		<img onclick = "disp_popups()" class = "legende" src = "img/legende_gr2.png"/>
+		<!-- Accès aide graphique 2 -->
+		<button type="button" class="btn btn-primary" id = "help-btn-2" data-toggle="modal" data-target="#help-modal-2">
+		  <img  class = "legende" src = "img/legende_gr1.png"/>
+		</button>
+		<!-- Modal -->
+		<div class="modal fade" id="help-modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Comment lire ce graphique ?</h5>
+				<button type="button" class="btn-close" id = "intro-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				<p>Dans ce graphique, les valeurs sont standardisées en référence à la valeur nationale qui vaut 100 pour chaque indicateur. La ligne en pointillés représente cette valeur nationale. <strong>Plus les valeurs sont situées à gauche de cette ligne moins le phénomène est marqué</strong> comparativement à la situation nationale ; inversement, <strong>plus les valeurs sont situées à droite de cette ligne et plus la situation est marquée</strong> comparativement à la situation nationale.</p>
+				<br/>
+				<p>Pour en savoir plus sur les indicateurs de freins potentiels, rendez-vous sur le <a href = "dico.html" target = "_blank" class = "link"><span class = "link-box">dictionnaire de données de SOFIE</span></a>.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" id = "help-close-2" data-dismiss="modal">Fermer</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
 	  </div>
 	  <div class="col-lg-6">
 		<div class = "row" id = "bloccom2">
 			<div id ="com2">
 			</div>
 		</div>
-		<div class = "row" id = "dalej">
-			<a target = "_blank" href = "dico.html" style = "clear : both ; float : right;"><button type="button" class="btn" id = "changeEPCI">Comprendre les indicateurs</button></a>
-			<span style = "clear : both ; float : right;"><button type="button" class="btn" id = "changeEPCI" onclick = "changeEPCI()">Voir un autre EPCI</button></span>
-		</div>
 	  </div>
+	</div>
+	<div class = "row visu-dalej">
+		<div class="col-sm-12 text-center">
+			<button type="button" class="btn" id = "visu-dalej2-btn" onclick = "changeEPCI()"><i class="bi bi-arrow-up-circle-fill"></i>&nbsp;Voir un autre territoire</button>
+			<a href = "dico.html" target = "_blank" class = "link">&nbsp;&nbsp;&nbsp;<span class = "link-box"><i class="bi bi-arrow-right-circle-fill"></i>&nbsp;Comprendre les indicateurs</span></a>
+		</div>
 	</div>
 </div>
 
@@ -182,8 +238,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	$('html,body').animate({scrollTop: $("#c2").offset().top},100);
 
 	// Récupérer le code associé au nom de l'EPCI sélectionné
-    search = $('#myAutocomplete').val().replace("'","&#x27;");
-
+    search = $('#myAutocomplete').val().replaceAll("'", "&#x27;");
 	console.log(search) ;
 	
 	var temp = libdata.filter(function(d){ return d.LIBGEO == search}) ;
@@ -206,7 +261,6 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	if(container != null){
 		container.innerHTML = "<div id='map' style='width: 100%; height: 100%;'>";
 		container._leaflet_id = null;
-		//console.log(container) ;
 	}
 	
 	var mymap = L.map('map');
@@ -244,7 +298,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	
 	function style2(feature) {
 		return {
-			fillColor: getColor2(feature.properties.TYPO_INEG),
+			fillColor: getColor2(feature.properties.TYPO_INEG2),
 			weight: 1,
 			opacity: 1,
 			color: 'white',
@@ -379,7 +433,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	habillage() ;
 	var div = L.DomUtil.create('div', 'info legend');
 		div.innerHTML +=
-		'<img src="img/legende1.png" alt="legend" width="170" height="200">';
+		'<img src="img/legende1.png" alt="" width="170" height="200">';
 	return div;
 	};
 
@@ -387,7 +441,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	habillage() ;
 	var div = L.DomUtil.create('div', 'info legend');
 		div.innerHTML +=
-		'<img src="img/legende2.png" alt="legend" width="170" height="200">';
+		'<img src="img/legende2.png" alt="" width="170" height="200">';
 	return div;
 	};
 	
@@ -395,7 +449,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	habillage() ;
 	var div = L.DomUtil.create('div', 'info legend');
 		div.innerHTML +=
-		'<img src="img/legende3.png" alt="legend" width="170" height="200">';
+		'<img src="img/legende3.png" alt="" width="170" height="200">';
 	return div;
 	};
 	
@@ -450,7 +504,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 			"Insertion professionnelle": ipce,
 			"Inégalités femmes-hommes": ineg,
 			"Freins potentiels": freins
-	    }).addTo(mymap);
+	    },null,{collapsed:false}).addTo(mymap);
 	}) ;
 	
 	// Légendes
@@ -571,33 +625,20 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 		$('#com1').append("<strong>Aucun indicateur n'excède significativement la valeur nationale.</strong>") ;
 	  }
 	  
-	  <!-- if(temp.length == 5){   -->
-		<!-- $('#com1').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, l'ensemble des indicateurs excèdent largement la valeur nationale. Pour tous ces indicateurs, la situation est donc sensiblement plus dégradée dans le territoire sélectionné que dans l'ensemble du pays. <strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme celui qui marque le plus le territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ; -->
-	  <!-- } -->
-	  <!-- else if(temp.length > 1){   -->
-		<!-- $('#com1').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, "+temp.length+" indicateurs excèdent largement la valeur nationale : <i>"+libindicsup+"</i>. Pour ces indicateurs, la situation est donc sensiblement plus dégradée dans le territoire sélectionné que dans l'ensemble du pays. <strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme celui qui marque le plus le territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ; -->
-	  <!-- } -->
-	  <!-- else if(temp.length == 1){ -->
-		<!-- $('#com1').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, 1 indicateur excède largement la valeur nationale. <strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît de fait comme celui qui marque le plus le territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ; -->
-	  <!-- } -->
-	  <!-- else if(temp.length == 0){ -->
-		<!-- $('#com1').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, aucun indicateur n'excède largement la valeur nationale. <strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme celui qui marque le plus le territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ; -->
-	  <!-- } -->
-	  
 	  // Commentaire inégalités
-	  if(dataf[0].TYPO_INEG == "Q1"){
+	  if(dataf[0].TYPO_INEG2 == "Q1"){
 		$('#com1').append("<br/><br/><strong>Les inégalités entre les femmes et les hommes</strong> en matière d'accès à l'emploi et de conditions de travail <strong>sont globalement contenues dans le territoire sélectionné relativement à ce qu'on observe dans l'ensemble du pays.</strong> L'indicateur <i>"+ libinegmax.toLowerCase()+"</i> est celui pour lequel les inégalités entre les femmes et les hommes sont le plus marquées avec une valeur de "+Math.round(temp3[1].loc * 10) / 10+" "+temp2[0].Unite+" pour les femmes contre "+Math.round(temp3[0].loc * 10) / 10+" "+temp2[0].Unite+" pour les hommes.</p>") ;
 	  }
-	  else if (dataf[0].TYPO_INEG == "Q2"){
+	  else if (dataf[0].TYPO_INEG2 == "Q2"){
 		$('#com1').append("<br/><br/><strong>Les inégalités entre les femmes et les hommes</strong> en matière d'accès à l'emploi et de conditions de travail dans le territoire sélectionné <strong>sont plutôt contenues dans le territoire sélectionné relativement à ce qu'on observe dans l'ensemble du pays.</strong> L'indicateur <i>"+ libinegmax.toLowerCase()+"</i> est celui pour lequel les inégalités entre les femmes et les hommes sont le plus marquées avec une valeur de "+Math.round(temp3[1].loc * 10) / 10+" "+temp2[0].Unite+" pour les femmes contre "+Math.round(temp3[0].loc * 10) / 10+" "+temp2[0].Unite+" pour les hommes.</p>") ;
 	  }
-	  else if (dataf[0].TYPO_INEG == "Q3"){
+	  else if (dataf[0].TYPO_INEG2 == "Q3"){
 		$('#com1').append("<br/><br/><strong>Les inégalités entre les femmes et les hommes</strong> en matière d'accès à l'emploi et de conditions de travail dans le territoire sélectionné <strong>sont globalement comparables à ce qu'on observe dans l'ensemble du pays.</strong> L'indicateur <i>"+ libinegmax.toLowerCase()+"</i> est celui pour lequel les inégalités entre les femmes et les hommes sont le plus marquées avec une valeur de "+Math.round(temp3[1].loc * 10) / 10+" "+temp2[0].Unite+" pour les femmes contre "+Math.round(temp3[0].loc * 10) / 10+" "+temp2[0].Unite+" pour les hommes.</p>") ;
 	  }
-	  else if (dataf[0].TYPO_INEG == "Q4"){
+	  else if (dataf[0].TYPO_INEG2 == "Q4"){
 		$('#com1').append("<br/><br/><strong>Les inégalités entre les femmes et les hommes</strong> en matière d'accès à l'emploi et de conditions de travail <strong>sont globalement plus marquées dans le territoire sélectionné relativement à ce qu'on observe dans l'ensemble du pays.</strong> L'indicateur <i>"+ libinegmax.toLowerCase()+"</i> est celui pour lequel les inégalités entre les femmes et les hommes sont le plus marquées avec une valeur de "+Math.round(temp3[1].loc * 10) / 10+" "+temp2[0].Unite+" pour les femmes contre "+Math.round(temp3[0].loc * 10) / 10+" "+temp2[0].Unite+" pour les hommes.</p>") ;
 	  }
-	  else if (dataf[0].TYPO_INEG == "Q5"){
+	  else if (dataf[0].TYPO_INEG2 == "Q5"){
 		$('#com1').append("<br/><br/><strong>Les inégalités entre les femmes et les hommes</strong> en matière d'accès à l'emploi et de conditions de travail <strong>sont significativement plus marquées dans le territoire sélectionné relativement à ce qu'on observe dans l'ensemble du pays.</strong> L'indicateur <i>"+ libinegmax.toLowerCase()+"</i> est celui pour lequel les inégalités entre les femmes et les hommes sont le plus marquées avec une valeur de "+Math.round(temp3[1].loc * 10) / 10+" "+temp2[0].Unite+" pour les femmes contre "+Math.round(temp3[0].loc * 10) / 10+" "+temp2[0].Unite+" pour les hommes.</p>") ;
 	  }
 	  
@@ -622,8 +663,7 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	  drawgraph2(data) ;
 	  
 	  // Commentaire automatique
-	  var temp0 = data.filter(function(d){ return d.b100 > 110}) ;
-	  var temp = data.filter(function(d){ return d.b100 > 125}) ;
+	  var temp = data.filter(function(d){ return d.b100 > 110}) ;
 	  var temp2 = data.filter(function(d){ return d.b100 == d3.max(data, function(d) {return d.b100; })}) ;
 	  libindicsup = [] ;
 	  for(i in temp){libindicsup.push(" " + temp[i].LIB_VAR_LG.toLowerCase())} ;
@@ -642,16 +682,16 @@ d3.csv("data/libEPCIEPT20.csv").then(function(libdata){
 	
       // Commentaire global
 	  if(temp.length == 5){  
-		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, l'ensemble des indicateurs de freins potentiels à l'accès à l'emploi des femmes excèdent largement la valeur nationale.<br/><br/><strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
+		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, l'ensemble des indicateurs de freins potentiels à l'accès à l'emploi des femmes excèdent significativement la valeur nationale.<br/><br/>Parmi les freins potentiels étudiés, <strong>l'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
 	  }
 	  else if(temp.length > 1){  
-		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, "+temp.length+" indicateurs de freins potentiels à l'accès à l'emploi des femmes excèdent largement la valeur nationale : <i>"+libindicsup+"</i>. Ces freins potentiels à l'accès à l'emploi des femmes sont donc sensiblement plus marqués dans le territoire sélectionné que dans l'ensemble du pays.<br/><br/><strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
+		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, "+temp.length+" indicateurs de freins potentiels à l'accès à l'emploi des femmes excèdent significativement la valeur nationale : <i>"+libindicsup+"</i>. Ces freins potentiels à l'accès à l'emploi des femmes sont donc sensiblement plus marqués dans le territoire sélectionné que dans l'ensemble du pays.<br/><br/>Parmi les freins potentiels étudiés, <strong>l'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire </strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
 	  }
 	  else if(temp.length == 1){
-		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, 1 indicateur de freins potentiels à l'accès à l'emploi excède largement la valeur nationale. <br/><br/><strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît de fait comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
+		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, 1 indicateur de freins potentiels à l'accès à l'emploi excède significativement la valeur nationale. <br/><br/>Parmi les freins potentiels étudiés, <strong>l'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît de fait comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
 	  }
 	  else if(temp.length == 0){
-		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, aucun indicateur de freins potentiels à l'accès à l'emploi n'excède largement la valeur nationale. <br/><br/><strong>L'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît néanmoins comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
+		$('#com2').append("<br/><p class = 'commentaire'>Dans l’EPCI sélectionné, aucun indicateur de freins potentiels à l'accès à l'emploi n'excède significativement la valeur nationale. <br/><br/>Parmi les freins potentiels étudiés, <strong>l'indicateur <i>"+ libindicmax.toLowerCase() +"</i> apparaît néanmoins comme le principal frein potentiel à l'accès à l'emploi des femmes dans ce territoire</strong> avec une valeur de "+Math.round(temp2[0].loc * 10) / 10+" "+temp2[0].Unite+" contre "+Math.round(temp2[0].fra * 10) / 10+" "+temp2[0].Unite+" en France.") ;
 	  }
 	});
 	
@@ -801,7 +841,7 @@ function drawgraph(dfG, sexe){
 			   div.transition()
 				 .duration(200)
 				 .style("opacity", .9);
-			   div.html(d.LIB_VAR_LG + " :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France : " + Math.round(d.fra * 10) / 10 + " %</i>")
+			   div.html(d.LIB_VAR_LG + " (femmes) :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France : " + Math.round(d.fra * 10) / 10 + " %</i>")
 				 .style("left", (event.pageX) + 15 + "px")
 				 .style("top", (event.pageY - 28) + "px");
 			   })
@@ -825,7 +865,7 @@ function drawgraph(dfG, sexe){
 			   div.transition()
 				 .duration(200)
 				 .style("opacity", .9);
-			   div.html(d.LIB_VAR_LG + " :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France (femmes) : " + Math.round(d.fras * 10) / 10 + " %</i>")
+			   div.html(d.LIB_VAR_LG + " (femmes) :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France (femmes) : " + Math.round(d.fras * 10) / 10 + " %</i>")
 				 .style("left", (event.pageX) + 15 + "px")
 				 .style("top", (event.pageY - 28) + "px");
 			   })
@@ -853,7 +893,7 @@ function drawgraph(dfG, sexe){
 			   div.transition()
 				 .duration(200)
 				 .style("opacity", .9);
-			   div.html(d.LIB_VAR_LG + " :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France (hommes) : " + Math.round(d.fras * 10) / 10 + " %</i>")
+			   div.html(d.LIB_VAR_LG + " (hommes) :<br/><strong>" + Math.round(d.loc * 10) / 10 + " %</strong><br/><br/><i>France (hommes) : " + Math.round(d.fras * 10) / 10 + " %</i>")
 				 .style("left", (event.pageX) + 15 + "px")
 				 .style("top", (event.pageY - 28) + "px");
 			   })
@@ -999,12 +1039,12 @@ function drawgraph2(dfG){
 }
 
 // Navigation
-var godet = function() {
+var dalej = function() {
 	$("#c3").css("display", "block") ;
 	$('html,body').animate({scrollTop: $("#c3").offset().top},100);
 } ;
 
-var gofreins = function () {
+var dalej2 = function () {
 	$("#c4").css("display", "block") ;
 	$('html,body').animate({scrollTop: $("#c4").offset().top},100);
  } ;
@@ -1024,17 +1064,31 @@ var gofreins = function () {
 });
 
 // Popups d'aide
-function disp_popups(){
+$('#help-btn-1').click(function(){
+	$('#help-modal-1').modal('toggle')
+}) ;
+$('#help-btn-2').click(function(){
+	$('#help-modal-2').modal('toggle')
+}) ;
+$('#help-close-1').click(function(){
+	$('#help-modal-1').modal('hide')
+}) ;
+$('#help-close-2').click(function(){
+	$('#help-modal-2').modal('hide')
+}) ;
+
+function disp_popups2(){
 	$("#popup").css("display", "block") ;
 	$("#text").html( "" );
 	$("#text").html(`
-		<p>Dans ce graphique, les valeurs sont standardisées en référence à la valeur nationale pour les femmes qui vaut 100 pour chaque indicateur. La ligne en pointillés représente cette valeur nationale. <strong>Plus les valeurs sont situées à gauche de cette ligne moins le phénomène est marqué</strong> comparativement à la situation des femmes en France ; inversement, <strong>plus les valeurs sont situées à droite de cette ligne et plus la situation est marquée</strong> comparativement à la situation des femmes en France.</p>
+		<p><strong>Comment lire ce graphique ?</strong></p>
 		<br/>
-		<p>Pour en savoir plus sur les indicateurs, rendez- vous sur le <a href = "dico.html" target = "_blank">dictionnaire de données de SOFIE</a>.</p>
+		<p>Dans ce graphique, les valeurs sont standardisées en référence à la valeur nationale qui vaut 100 pour chaque indicateur. La ligne en pointillés représente cette valeur nationale. <strong>Plus les valeurs sont situées à gauche de cette ligne moins le phénomène est marqué</strong> comparativement à la situation nationale ; inversement, <strong>plus les valeurs sont situées à droite de cette ligne et plus la situation est marquée</strong> comparativement à la situation nationale.</p>
+		<br/>
+		<p>Pour en savoir plus sur les indicateurs de freins potentiels, rendez-vous sur le <a href = "dico.html" target = "_blank">dictionnaire de données de SOFIE</a>.</p>
 	`);	
-	$("#close").click(function() {$("#popup").css("display", "none") ; }) ;
+	$("#exp-close").click(function() {$("#popup").css("display", "none") ; }) ;
 }
-
 
 </script>
 

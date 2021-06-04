@@ -77,7 +77,7 @@ var listEPCI2 = [
   },
   {
     "value": 200011781,
-    "label": "CC Portes du Berry entre Loire et Val d&#x27;Aubois"
+    "label": "CC Portes du Berry entre Loire et Val d'Aubois"
   },
   {
     "value": 200013050,
@@ -85,7 +85,7 @@ var listEPCI2 = [
   },
   {
     "value": 200015162,
-    "label": "CC de l&#x27;Oriente"
+    "label": "CC de l'Oriente"
   },
   {
     "value": 200016905,
@@ -197,7 +197,7 @@ var listEPCI2 = [
   },
   {
     "value": 200027308,
-    "label": "CC d&#x27;Auberive Vingeanne et Montsaugeonnais"
+    "label": "CC d'Auberive Vingeanne et Montsaugeonnais"
   },
   {
     "value": 200027548,
@@ -209,11 +209,11 @@ var listEPCI2 = [
   },
   {
     "value": 200029999,
-    "label": "CC Rives de l&#x27;Ain - Pays du Cerdon"
+    "label": "CC Rives de l'Ain - Pays du Cerdon"
   },
   {
     "value": 200030195,
-    "label": "Métropole Nice Côte d&#x27;Azur"
+    "label": "Métropole Nice Côte d'Azur"
   },
   {
     "value": 200030385,
@@ -221,7 +221,7 @@ var listEPCI2 = [
   },
   {
     "value": 200030435,
-    "label": "CC d&#x27;Aire-sur-l&#x27;Adour"
+    "label": "CC d'Aire-sur-l'Adour"
   },
   {
     "value": 200030526,
@@ -269,11 +269,11 @@ var listEPCI2 = [
   },
   {
     "value": 200033579,
-    "label": "CU d&#x27;Arras"
+    "label": "CU d'Arras"
   },
   {
     "value": 200033827,
-    "label": "CC de Fium&#x27;orbu Castellu"
+    "label": "CC de Fium'orbu Castellu"
   },
   {
     "value": 200033868,
@@ -285,7 +285,7 @@ var listEPCI2 = [
   },
   {
     "value": 200034031,
-    "label": "CC des Monts d&#x27;Alban et du Villefranchois"
+    "label": "CC des Monts d'Alban et du Villefranchois"
   },
   {
     "value": 200034049,
@@ -293,7 +293,7 @@ var listEPCI2 = [
   },
   {
     "value": 200034056,
-    "label": "CC du Lautrécois et du Pays d&#x27;Agout"
+    "label": "CC du Lautrécois et du Pays d'Agout"
   },
   {
     "value": 200034064,
@@ -321,7 +321,7 @@ var listEPCI2 = [
   },
   {
     "value": 200034379,
-    "label": "CC Pays d&#x27;Uzès"
+    "label": "CC Pays d'Uzès"
   },
   {
     "value": 200034411,
@@ -381,7 +381,7 @@ var listEPCI2 = [
   },
   {
     "value": 200035111,
-    "label": "CC des Sources de l&#x27;Orne"
+    "label": "CC des Sources de l'Orne"
   },
   {
     "value": 200035129,
@@ -389,7 +389,7 @@ var listEPCI2 = [
   },
   {
     "value": 200035137,
-    "label": "CC Marche Occitane - Val d&#x27;Anglin"
+    "label": "CC Marche Occitane - Val d'Anglin"
   },
   {
     "value": 200035202,
@@ -409,7 +409,7 @@ var listEPCI2 = [
   },
   {
     "value": 200035459,
-    "label": "CA d&#x27;Agen"
+    "label": "CA d'Agen"
   },
   {
     "value": 200035533,
@@ -417,7 +417,7 @@ var listEPCI2 = [
   },
   {
     "value": 200035541,
-    "label": "CC des Landes d&#x27;Armagnac"
+    "label": "CC des Landes d'Armagnac"
   },
   {
     "value": 200035632,
@@ -509,7 +509,7 @@ var listEPCI2 = [
   },
   {
     "value": 200036572,
-    "label": "CC Porte d&#x27;Aquitaine en Pays de Serres"
+    "label": "CC Porte d'Aquitaine en Pays de Serres"
   },
   {
     "value": 200037059,
@@ -521,7 +521,7 @@ var listEPCI2 = [
   },
   {
     "value": 200038958,
-    "label": "CC de la Piève de l&#x27;Ornano et du Taravo"
+    "label": "CC de la Piève de l'Ornano et du Taravo"
   },
   {
     "value": 200038990,
@@ -561,7 +561,7 @@ var listEPCI2 = [
   },
   {
     "value": 200039808,
-    "label": "CC des Gorges de l&#x27;Ardèche"
+    "label": "CC des Gorges de l'Ardèche"
   },
   {
     "value": 200039824,
@@ -589,7 +589,7 @@ var listEPCI2 = [
   },
   {
     "value": 200039931,
-    "label": "CC Alpes d&#x27;Azur"
+    "label": "CC Alpes d'Azur"
   },
   {
     "value": 200039949,
@@ -613,7 +613,7 @@ var listEPCI2 = [
   },
   {
     "value": 200040178,
-    "label": "CC de l&#x27;Outre-Forêt"
+    "label": "CC de l'Outre-Forêt"
   },
   {
     "value": 200040202,
@@ -661,7 +661,7 @@ var listEPCI2 = [
   },
   {
     "value": 200040426,
-    "label": "CC du Val de l&#x27;Oise"
+    "label": "CC du Val de l'Oise"
   },
   {
     "value": 200040442,
@@ -689,7 +689,7 @@ var listEPCI2 = [
   },
   {
     "value": 200040566,
-    "label": "CA de l&#x27;Ouest Rhodanien"
+    "label": "CA de l'Ouest Rhodanien"
   },
   {
     "value": 200040574,
@@ -701,7 +701,7 @@ var listEPCI2 = [
   },
   {
     "value": 200040624,
-    "label": "CC Pays d&#x27;Apt-Luberon"
+    "label": "CC Pays d'Apt-Luberon"
   },
   {
     "value": 200040657,
@@ -765,7 +765,7 @@ var listEPCI2 = [
   },
   {
     "value": 200041168,
-    "label": "CC de la Vallée de l&#x27;Homme"
+    "label": "CC de la Vallée de l'Homme"
   },
   {
     "value": 200041283,
@@ -925,7 +925,7 @@ var listEPCI2 = [
   },
   {
     "value": 200042703,
-    "label": "CC de l&#x27;Argonne Champenoise"
+    "label": "CC de l'Argonne Champenoise"
   },
   {
     "value": 200042729,
@@ -953,7 +953,7 @@ var listEPCI2 = [
   },
   {
     "value": 200043065,
-    "label": "CC du Val d&#x27;Amboise"
+    "label": "CC du Val d'Amboise"
   },
   {
     "value": 200043081,
@@ -973,7 +973,7 @@ var listEPCI2 = [
   },
   {
     "value": 200043263,
-    "label": "CC Cœur de l&#x27;Avesnois"
+    "label": "CC Cœur de l'Avesnois"
   },
   {
     "value": 200043321,
@@ -1001,7 +1001,7 @@ var listEPCI2 = [
   },
   {
     "value": 200043602,
-    "label": "CC des Albères, de la Côte Vermeille et de l&#x27;Illibéris"
+    "label": "CC des Albères, de la Côte Vermeille et de l'Illibéris"
   },
   {
     "value": 200043628,
@@ -1081,7 +1081,7 @@ var listEPCI2 = [
   },
   {
     "value": 200054807,
-    "label": "Métropole d&#x27;Aix-Marseille-Provence"
+    "label": "Métropole d'Aix-Marseille-Provence"
   },
   {
     "value": 200055481,
@@ -1105,7 +1105,7 @@ var listEPCI2 = [
   },
   {
     "value": 200057859,
-    "label": "CA Cœur d&#x27;Essonne Agglomération"
+    "label": "CA Cœur d'Essonne Agglomération"
   },
   {
     "value": 200057958,
@@ -1117,7 +1117,7 @@ var listEPCI2 = [
   },
   {
     "value": 200058477,
-    "label": "CA Val d&#x27;Yerres Val de Seine"
+    "label": "CA Val d'Yerres Val de Seine"
   },
   {
     "value": 200058485,
@@ -1153,7 +1153,7 @@ var listEPCI2 = [
   },
   {
     "value": 200065563,
-    "label": "CC Normandie-Cabourg-Pays d&#x27;Auge"
+    "label": "CC Normandie-Cabourg-Pays d'Auge"
   },
   {
     "value": 200065589,
@@ -1189,7 +1189,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066017,
-    "label": "CC Lieuvin Pays d&#x27;Auge"
+    "label": "CC Lieuvin Pays d'Auge"
   },
   {
     "value": 200066025,
@@ -1225,7 +1225,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066140,
-    "label": "CC de l&#x27;Aire à l&#x27;Argonne"
+    "label": "CC de l'Aire à l'Argonne"
   },
   {
     "value": 200066157,
@@ -1245,7 +1245,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066231,
-    "label": "CC des Portes d&#x27;Ariège Pyrénées"
+    "label": "CC des Portes d'Ariège Pyrénées"
   },
   {
     "value": 200066280,
@@ -1341,7 +1341,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066728,
-    "label": "CC Vallées de l&#x27;Orne et de l&#x27;Odon"
+    "label": "CC Vallées de l'Orne et de l'Odon"
   },
   {
     "value": 200066744,
@@ -1349,7 +1349,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066751,
-    "label": "CC Xaintrie Val&#x27;Dordogne"
+    "label": "CC Xaintrie Val'Dordogne"
   },
   {
     "value": 200066769,
@@ -1361,7 +1361,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066785,
-    "label": "CC de l&#x27;Oust à Brocéliande"
+    "label": "CC de l'Oust à Brocéliande"
   },
   {
     "value": 200066793,
@@ -1389,7 +1389,7 @@ var listEPCI2 = [
   },
   {
     "value": 200066868,
-    "label": "CC Presqu&#x27;île de Crozon-Aulne maritime"
+    "label": "CC Presqu'île de Crozon-Aulne maritime"
   },
   {
     "value": 200066876,
@@ -1445,7 +1445,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067114,
-    "label": "CA de l&#x27;Auxerrois"
+    "label": "CA de l'Auxerrois"
   },
   {
     "value": 200067122,
@@ -1473,7 +1473,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067197,
-    "label": "CC Monts d&#x27;Arrée Communauté"
+    "label": "CC Monts d'Arrée Communauté"
   },
   {
     "value": 200067205,
@@ -1517,7 +1517,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067320,
-    "label": "CC Serre-Ponçon Val d&#x27;Avance"
+    "label": "CC Serre-Ponçon Val d'Avance"
   },
   {
     "value": 200067346,
@@ -1533,7 +1533,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067429,
-    "label": "CC Haut Nivernais-Val d&#x27;Yonne"
+    "label": "CC Haut Nivernais-Val d'Yonne"
   },
   {
     "value": 200067437,
@@ -1593,7 +1593,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067668,
-    "label": "CC de la Cléry, du Betz et de l&#x27;Ouanne"
+    "label": "CC de la Cléry, du Betz et de l'Ouanne"
   },
   {
     "value": 200067676,
@@ -1617,7 +1617,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067759,
-    "label": "CC Vallées et Plateau d&#x27;Ardenne"
+    "label": "CC Vallées et Plateau d'Ardenne"
   },
   {
     "value": 200067767,
@@ -1641,7 +1641,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067841,
-    "label": "CC de l&#x27;Alsace Bossue"
+    "label": "CC de l'Alsace Bossue"
   },
   {
     "value": 200067866,
@@ -1669,7 +1669,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067924,
-    "label": "CC du Canton d&#x27;Erstein"
+    "label": "CC du Canton d'Erstein"
   },
   {
     "value": 200067932,
@@ -1693,7 +1693,7 @@ var listEPCI2 = [
   },
   {
     "value": 200067981,
-    "label": "CA Guingamp-Paimpol Agglomération de l&#x27;Armor à l&#x27;Argoat"
+    "label": "CA Guingamp-Paimpol Agglomération de l'Armor à l'Argoat"
   },
   {
     "value": 200067999,
@@ -1701,7 +1701,7 @@ var listEPCI2 = [
   },
   {
     "value": 200068005,
-    "label": "CC de l&#x27;Oise Picarde"
+    "label": "CC de l'Oise Picarde"
   },
   {
     "value": 200068047,
@@ -1769,11 +1769,11 @@ var listEPCI2 = [
   },
   {
     "value": 200068468,
-    "label": "CC des Pays de L&#x27;Aigle"
+    "label": "CC des Pays de L'Aigle"
   },
   {
     "value": 200068484,
-    "label": "CC des Causses à l&#x27;Aubrac"
+    "label": "CC des Causses à l'Aubrac"
   },
   {
     "value": 200068500,
@@ -1789,7 +1789,7 @@ var listEPCI2 = [
   },
   {
     "value": 200068559,
-    "label": "CC de l&#x27;Ouest Vosgien"
+    "label": "CC de l'Ouest Vosgien"
   },
   {
     "value": 200068567,
@@ -1817,11 +1817,11 @@ var listEPCI2 = [
   },
   {
     "value": 200068682,
-    "label": "CC Terre d&#x27;Eau"
+    "label": "CC Terre d'Eau"
   },
   {
     "value": 200068757,
-    "label": "CA d&#x27;Épinal"
+    "label": "CA d'Épinal"
   },
   {
     "value": 200068765,
@@ -1945,7 +1945,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069144,
-    "label": "CC des Hautes Terres de l&#x27;Aubrac"
+    "label": "CC des Hautes Terres de l'Aubrac"
   },
   {
     "value": 200069151,
@@ -1957,11 +1957,11 @@ var listEPCI2 = [
   },
   {
     "value": 200069177,
-    "label": "CC Mond&#x27;Arverne Communauté"
+    "label": "CC Mond'Arverne Communauté"
   },
   {
     "value": 200069185,
-    "label": "CC des Terres d&#x27;Apcher-Margeride-Aubrac"
+    "label": "CC des Terres d'Apcher-Margeride-Aubrac"
   },
   {
     "value": 200069193,
@@ -2001,7 +2001,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069417,
-    "label": "CC Pays d&#x27;Orthe et Arrigans"
+    "label": "CC Pays d'Orthe et Arrigans"
   },
   {
     "value": 200069425,
@@ -2017,11 +2017,11 @@ var listEPCI2 = [
   },
   {
     "value": 200069458,
-    "label": "CC des Vallées d&#x27;Auge et du Merlerault"
+    "label": "CC des Vallées d'Auge et du Merlerault"
   },
   {
     "value": 200069482,
-    "label": "CC des Campagnes de l&#x27;Artois"
+    "label": "CC des Campagnes de l'Artois"
   },
   {
     "value": 200069516,
@@ -2049,7 +2049,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069599,
-    "label": "CC Rurales de l&#x27;Entre-deux-Mers"
+    "label": "CC Rurales de l'Entre-deux-Mers"
   },
   {
     "value": 200069615,
@@ -2105,7 +2105,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069839,
-    "label": "CC de la Côte d&#x27;Albâtre"
+    "label": "CC de la Côte d'Albâtre"
   },
   {
     "value": 200069847,
@@ -2121,7 +2121,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069953,
-    "label": "CC des Portes Euréliennes d&#x27;Île-de-France"
+    "label": "CC des Portes Euréliennes d'Île-de-France"
   },
   {
     "value": 200069961,
@@ -2129,7 +2129,7 @@ var listEPCI2 = [
   },
   {
     "value": 200069995,
-    "label": "CC Médoc Cœur de Presqu&#x27;île"
+    "label": "CC Médoc Cœur de Presqu'île"
   },
   {
     "value": 200070035,
@@ -2217,7 +2217,7 @@ var listEPCI2 = [
   },
   {
     "value": 200070407,
-    "label": "CA Pays d&#x27;Issoire"
+    "label": "CA Pays d'Issoire"
   },
   {
     "value": 200070431,
@@ -2317,7 +2317,7 @@ var listEPCI2 = [
   },
   {
     "value": 200070803,
-    "label": "CC des Coteaux du Val-d&#x27;Arros"
+    "label": "CC des Coteaux du Val-d'Arros"
   },
   {
     "value": 200070811,
@@ -2373,7 +2373,7 @@ var listEPCI2 = [
   },
   {
     "value": 200070985,
-    "label": "CC de l&#x27;Est de la Somme"
+    "label": "CC de l'Est de la Somme"
   },
   {
     "value": 200070993,
@@ -2381,7 +2381,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071017,
-    "label": "CC des Terres d&#x27;Auxois"
+    "label": "CC des Terres d'Auxois"
   },
   {
     "value": 200071025,
@@ -2393,7 +2393,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071041,
-    "label": "CC du Chaourçois et du Val d&#x27;Armance"
+    "label": "CC du Chaourçois et du Val d'Armance"
   },
   {
     "value": 200071058,
@@ -2405,7 +2405,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071074,
-    "label": "CC Les Portes de l&#x27;Ile de France"
+    "label": "CC Les Portes de l'Ile de France"
   },
   {
     "value": 200071082,
@@ -2425,7 +2425,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071165,
-    "label": "CA Les Sables d&#x27;Olonne Agglomération"
+    "label": "CA Les Sables d'Olonne Agglomération"
   },
   {
     "value": 200071173,
@@ -2485,7 +2485,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071470,
-    "label": "CC Entr&#x27;Allier Besbre et Loire"
+    "label": "CC Entr'Allier Besbre et Loire"
   },
   {
     "value": 200071496,
@@ -2517,7 +2517,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071579,
-    "label": "CC Bresse Louhannaise Intercom&#x27;"
+    "label": "CC Bresse Louhannaise Intercom'"
   },
   {
     "value": 200071587,
@@ -2553,7 +2553,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071777,
-    "label": "CC d&#x27;Arcis, Mailly, Ramerupt"
+    "label": "CC d'Arcis, Mailly, Ramerupt"
   },
   {
     "value": 200071785,
@@ -2613,7 +2613,7 @@ var listEPCI2 = [
   },
   {
     "value": 200071967,
-    "label": "CC Pays d&#x27;Évian Vallée d&#x27;Abondance"
+    "label": "CC Pays d'Évian Vallée d'Abondance"
   },
   {
     "value": 200071983,
@@ -2625,7 +2625,7 @@ var listEPCI2 = [
   },
   {
     "value": 200072007,
-    "label": "CC de la Montagne d&#x27;Ardèche"
+    "label": "CC de la Montagne d'Ardèche"
   },
   {
     "value": 200072015,
@@ -2673,7 +2673,7 @@ var listEPCI2 = [
   },
   {
     "value": 200072304,
-    "label": "CC Vallée de l&#x27;Ubaye - Serre-Ponçon"
+    "label": "CC Vallée de l'Ubaye - Serre-Ponçon"
   },
   {
     "value": 200072312,
@@ -2697,7 +2697,7 @@ var listEPCI2 = [
   },
   {
     "value": 200072478,
-    "label": "CC Pays d&#x27;Opale"
+    "label": "CC Pays d'Opale"
   },
   {
     "value": 200072544,
@@ -2713,7 +2713,7 @@ var listEPCI2 = [
   },
   {
     "value": 200072650,
-    "label": "CC Touraine Vallée de l&#x27;Indre"
+    "label": "CC Touraine Vallée de l'Indre"
   },
   {
     "value": 200072668,
@@ -2729,7 +2729,7 @@ var listEPCI2 = [
   },
   {
     "value": 200072692,
-    "label": "CC des Vallées de la Braye et de l&#x27;Anille"
+    "label": "CC des Vallées de la Braye et de l'Anille"
   },
   {
     "value": 200072700,
@@ -2777,7 +2777,7 @@ var listEPCI2 = [
   },
   {
     "value": 200073104,
-    "label": "CC de l&#x27;Île-Rousse - Balagne"
+    "label": "CC de l'Île-Rousse - Balagne"
   },
   {
     "value": 200073112,
@@ -2785,7 +2785,7 @@ var listEPCI2 = [
   },
   {
     "value": 200073120,
-    "label": "CC Nebbiu - Conca d&#x27;Oro"
+    "label": "CC Nebbiu - Conca d'Oro"
   },
   {
     "value": 200073138,
@@ -2805,7 +2805,7 @@ var listEPCI2 = [
   },
   {
     "value": 200073245,
-    "label": "CC du Bassin d&#x27;Aubenas"
+    "label": "CC du Bassin d'Aubenas"
   },
   {
     "value": 200073252,
@@ -2853,7 +2853,7 @@ var listEPCI2 = [
   },
   {
     "value": 200085751,
-    "label": "CC d&#x27;Entre Bièvre et Rhône"
+    "label": "CC d'Entre Bièvre et Rhône"
   },
   {
     "value": 200089456,
@@ -2869,7 +2869,7 @@ var listEPCI2 = [
   },
   {
     "value": 200090579,
-    "label": "CC Jura Sud, Pays des Lacs, Petite Montagne et Région d&#x27;Orgelet"
+    "label": "CC Jura Sud, Pays des Lacs, Petite Montagne et Région d'Orgelet"
   },
   {
     "value": 200090751,
@@ -2889,7 +2889,7 @@ var listEPCI2 = [
   },
   {
     "value": 240100883,
-    "label": "CC de la Plaine de l&#x27;Ain"
+    "label": "CC de la Plaine de l'Ain"
   },
   {
     "value": 240100891,
@@ -2913,11 +2913,11 @@ var listEPCI2 = [
   },
   {
     "value": 240200501,
-    "label": "CC du Val de l&#x27;Aisne"
+    "label": "CC du Val de l'Aisne"
   },
   {
     "value": 240200519,
-    "label": "CC du Canton d&#x27;Oulchy-le-Château"
+    "label": "CC du Canton d'Oulchy-le-Château"
   },
   {
     "value": 240200576,
@@ -2953,7 +2953,7 @@ var listEPCI2 = [
   },
   {
     "value": 240300657,
-    "label": "CC du Pays d&#x27;Huriel"
+    "label": "CC du Pays d'Huriel"
   },
   {
     "value": 240400440,
@@ -2989,7 +2989,7 @@ var listEPCI2 = [
   },
   {
     "value": 240700716,
-    "label": "CC du Val d&#x27;Ay"
+    "label": "CC du Val d'Ay"
   },
   {
     "value": 240700815,
@@ -2997,7 +2997,7 @@ var listEPCI2 = [
   },
   {
     "value": 240700864,
-    "label": "CC du Rhône aux Gorges de l&#x27;Ardèche"
+    "label": "CC du Rhône aux Gorges de l'Ardèche"
   },
   {
     "value": 240800821,
@@ -3013,7 +3013,7 @@ var listEPCI2 = [
   },
   {
     "value": 240800920,
-    "label": "CC de l&#x27;Argonne Ardennaise"
+    "label": "CC de l'Argonne Ardennaise"
   },
   {
     "value": 240900431,
@@ -3021,7 +3021,7 @@ var listEPCI2 = [
   },
   {
     "value": 240900464,
-    "label": "CC du Pays d&#x27;Olmes"
+    "label": "CC du Pays d'Olmes"
   },
   {
     "value": 241000223,
@@ -3033,11 +3033,11 @@ var listEPCI2 = [
   },
   {
     "value": 241000447,
-    "label": "CC du Pays d&#x27;Othe"
+    "label": "CC du Pays d'Othe"
   },
   {
     "value": 241000488,
-    "label": "CC de l&#x27;Orvin et de l&#x27;Ardusson"
+    "label": "CC de l'Orvin et de l'Ardusson"
   },
   {
     "value": 241100593,
@@ -3093,7 +3093,7 @@ var listEPCI2 = [
   },
   {
     "value": 241300417,
-    "label": "CA d&#x27;Arles-Crau-Camargue-Montagnette"
+    "label": "CA d'Arles-Crau-Camargue-Montagnette"
   },
   {
     "value": 241400415,
@@ -3113,11 +3113,11 @@ var listEPCI2 = [
   },
   {
     "value": 241400878,
-    "label": "CC Terre d&#x27;Auge"
+    "label": "CC Terre d'Auge"
   },
   {
     "value": 241500230,
-    "label": "CA du Bassin d&#x27;Aurillac"
+    "label": "CA du Bassin d'Aurillac"
   },
   {
     "value": 241500255,
@@ -3149,7 +3149,7 @@ var listEPCI2 = [
   },
   {
     "value": 241700459,
-    "label": "CC de l&#x27;Île de Ré"
+    "label": "CC de l'Île de Ré"
   },
   {
     "value": 241700517,
@@ -3157,7 +3157,7 @@ var listEPCI2 = [
   },
   {
     "value": 241700624,
-    "label": "CC de l&#x27;Île d&#x27;Oléron"
+    "label": "CC de l'Île d'Oléron"
   },
   {
     "value": 241700632,
@@ -3201,7 +3201,7 @@ var listEPCI2 = [
   },
   {
     "value": 241927243,
-    "label": "CC du Pays d&#x27;Uzerche"
+    "label": "CC du Pays d'Uzerche"
   },
   {
     "value": 242000354,
@@ -3209,7 +3209,7 @@ var listEPCI2 = [
   },
   {
     "value": 242000495,
-    "label": "CC de l&#x27;Alta Rocca"
+    "label": "CC de l'Alta Rocca"
   },
   {
     "value": 242000503,
@@ -3233,7 +3233,7 @@ var listEPCI2 = [
   },
   {
     "value": 242100154,
-    "label": "CC des Vallées de la Tille et de l&#x27;Ignon"
+    "label": "CC des Vallées de la Tille et de l'Ignon"
   },
   {
     "value": 242100410,
@@ -3249,7 +3249,7 @@ var listEPCI2 = [
   },
   {
     "value": 242101459,
-    "label": "CC du Pays d&#x27;Alésia et de la Seine"
+    "label": "CC du Pays d'Alésia et de la Seine"
   },
   {
     "value": 242101491,
@@ -3353,7 +3353,7 @@ var listEPCI2 = [
   },
   {
     "value": 242900074,
-    "label": "CC du Pays d&#x27;Iroise"
+    "label": "CC du Pays d'Iroise"
   },
   {
     "value": 242900314,
@@ -3429,7 +3429,7 @@ var listEPCI2 = [
   },
   {
     "value": 243000585,
-    "label": "CC Beaucaire Terre d&#x27;Argence"
+    "label": "CC Beaucaire Terre d'Argence"
   },
   {
     "value": 243000593,
@@ -3465,7 +3465,7 @@ var listEPCI2 = [
   },
   {
     "value": 243100773,
-    "label": "CC de Val&#x27;Aïgo"
+    "label": "CC de Val'Aïgo"
   },
   {
     "value": 243100781,
@@ -3489,7 +3489,7 @@ var listEPCI2 = [
   },
   {
     "value": 243200425,
-    "label": "CC Cœur d&#x27;Astarac en Gascogne"
+    "label": "CC Cœur d'Astarac en Gascogne"
   },
   {
     "value": 243200458,
@@ -3513,11 +3513,11 @@ var listEPCI2 = [
   },
   {
     "value": 243300563,
-    "label": "CA Bassin d&#x27;Arcachon Sud-Pôle Atlantique (COBAS)"
+    "label": "CA Bassin d'Arcachon Sud-Pôle Atlantique (COBAS)"
   },
   {
     "value": 243300811,
-    "label": "CC de l&#x27;Estuaire"
+    "label": "CC de l'Estuaire"
   },
   {
     "value": 243301165,
@@ -3561,11 +3561,11 @@ var listEPCI2 = [
   },
   {
     "value": 243301405,
-    "label": "CC du Val de l&#x27;Eyre"
+    "label": "CC du Val de l'Eyre"
   },
   {
     "value": 243301439,
-    "label": "CC des Portes de l&#x27;Entre-deux-Mers"
+    "label": "CC des Portes de l'Entre-deux-Mers"
   },
   {
     "value": 243301447,
@@ -3577,7 +3577,7 @@ var listEPCI2 = [
   },
   {
     "value": 243301504,
-    "label": "CA du Bassin d&#x27;Arcachon Nord"
+    "label": "CA du Bassin d'Arcachon Nord"
   },
   {
     "value": 243400017,
@@ -3589,7 +3589,7 @@ var listEPCI2 = [
   },
   {
     "value": 243400470,
-    "label": "CA du Pays de l&#x27;Or"
+    "label": "CA du Pays de l'Or"
   },
   {
     "value": 243400488,
@@ -3601,7 +3601,7 @@ var listEPCI2 = [
   },
   {
     "value": 243400694,
-    "label": "CC Vallée de l&#x27;Hérault"
+    "label": "CC Vallée de l'Hérault"
   },
   {
     "value": 243400736,
@@ -3637,11 +3637,11 @@ var listEPCI2 = [
   },
   {
     "value": 243500667,
-    "label": "CC du Val d&#x27;Ille-Aubigné"
+    "label": "CC du Val d'Ille-Aubigné"
   },
   {
     "value": 243500725,
-    "label": "CC Côte d&#x27;Émeraude"
+    "label": "CC Côte d'Émeraude"
   },
   {
     "value": 243500733,
@@ -3665,7 +3665,7 @@ var listEPCI2 = [
   },
   {
     "value": 243600236,
-    "label": "CC du Pays d&#x27;Issoudun"
+    "label": "CC du Pays d'Issoudun"
   },
   {
     "value": 243600293,
@@ -3673,7 +3673,7 @@ var listEPCI2 = [
   },
   {
     "value": 243600301,
-    "label": "CC Val de l&#x27;Indre - Brenne"
+    "label": "CC Val de l'Indre - Brenne"
   },
   {
     "value": 243600319,
@@ -3705,11 +3705,11 @@ var listEPCI2 = [
   },
   {
     "value": 243800604,
-    "label": "CA Porte de l&#x27;Isère (C.A.P.I)"
+    "label": "CA Porte de l'Isère (C.A.P.I)"
   },
   {
     "value": 243800745,
-    "label": "CC de l&#x27;Oisans"
+    "label": "CC de l'Oisans"
   },
   {
     "value": 243800935,
@@ -3737,7 +3737,7 @@ var listEPCI2 = [
   },
   {
     "value": 243900420,
-    "label": "CC du Val d&#x27;Amour"
+    "label": "CC du Val d'Amour"
   },
   {
     "value": 243900479,
@@ -3821,7 +3821,7 @@ var listEPCI2 = [
   },
   {
     "value": 244200614,
-    "label": "CC des Vals d&#x27;Aix et Isable"
+    "label": "CC des Vals d'Aix et Isable"
   },
   {
     "value": 244200622,
@@ -3837,7 +3837,7 @@ var listEPCI2 = [
   },
   {
     "value": 244200820,
-    "label": "CC du Pays d&#x27;Urfé"
+    "label": "CC du Pays d'Urfé"
   },
   {
     "value": 244200895,
@@ -3881,7 +3881,7 @@ var listEPCI2 = [
   },
   {
     "value": 244400503,
-    "label": "CC d&#x27;Erdre et Gesvres"
+    "label": "CC d'Erdre et Gesvres"
   },
   {
     "value": 244400537,
@@ -3889,7 +3889,7 @@ var listEPCI2 = [
   },
   {
     "value": 244400552,
-    "label": "CC du Pays d&#x27;Ancenis"
+    "label": "CC du Pays d'Ancenis"
   },
   {
     "value": 244400586,
@@ -3897,11 +3897,11 @@ var listEPCI2 = [
   },
   {
     "value": 244400610,
-    "label": "CA de la Presqu&#x27;île de Guérande Atlantique (Cap Atlantique)"
+    "label": "CA de la Presqu'île de Guérande Atlantique (Cap Atlantique)"
   },
   {
     "value": 244400644,
-    "label": "CA de la Région Nazairienne et de l&#x27;Estuaire (CARENE)"
+    "label": "CA de la Région Nazairienne et de l'Estuaire (CARENE)"
   },
   {
     "value": 244500203,
@@ -4005,7 +4005,7 @@ var listEPCI2 = [
   },
   {
     "value": 245300355,
-    "label": "CC de l&#x27;Ernée"
+    "label": "CC de l'Ernée"
   },
   {
     "value": 245300389,
@@ -4057,7 +4057,7 @@ var listEPCI2 = [
   },
   {
     "value": 245501242,
-    "label": "CC du Pays d&#x27;Étain"
+    "label": "CC du Pays d'Étain"
   },
   {
     "value": 245501259,
@@ -4121,7 +4121,7 @@ var listEPCI2 = [
   },
   {
     "value": 245701354,
-    "label": "CC de l&#x27;Arc Mosellan"
+    "label": "CC de l'Arc Mosellan"
   },
   {
     "value": 245701362,
@@ -4129,7 +4129,7 @@ var listEPCI2 = [
   },
   {
     "value": 245701404,
-    "label": "CC du Pays Haut Val d&#x27;Alzette"
+    "label": "CC du Pays Haut Val d'Alzette"
   },
   {
     "value": 245801063,
@@ -4165,7 +4165,7 @@ var listEPCI2 = [
   },
   {
     "value": 245901152,
-    "label": "CC Cœur d&#x27;Ostrevent"
+    "label": "CC Cœur d'Ostrevent"
   },
   {
     "value": 245901160,
@@ -4193,7 +4193,7 @@ var listEPCI2 = [
   },
   {
     "value": 246000749,
-    "label": "CC des Lisières de l&#x27;Oise"
+    "label": "CC des Lisières de l'Oise"
   },
   {
     "value": 246000756,
@@ -4201,7 +4201,7 @@ var listEPCI2 = [
   },
   {
     "value": 246000764,
-    "label": "CC de l&#x27;Aire Cantilienne"
+    "label": "CC de l'Aire Cantilienne"
   },
   {
     "value": 246000848,
@@ -4217,7 +4217,7 @@ var listEPCI2 = [
   },
   {
     "value": 246000897,
-    "label": "CC de la Plaine d&#x27;Estrées"
+    "label": "CC de la Plaine d'Estrées"
   },
   {
     "value": 246000913,
@@ -4225,19 +4225,19 @@ var listEPCI2 = [
   },
   {
     "value": 246000921,
-    "label": "CC des Pays d&#x27;Oise et d&#x27;Halatte"
+    "label": "CC des Pays d'Oise et d'Halatte"
   },
   {
     "value": 246100390,
-    "label": "CC du Val d&#x27;Orne"
+    "label": "CC du Val d'Orne"
   },
   {
     "value": 246100663,
-    "label": "CU d&#x27;Alençon"
+    "label": "CU d'Alençon"
   },
   {
     "value": 246200299,
-    "label": "CA d&#x27;Hénin-Carvin"
+    "label": "CA d'Hénin-Carvin"
   },
   {
     "value": 246200364,
@@ -4253,7 +4253,7 @@ var listEPCI2 = [
   },
   {
     "value": 246200844,
-    "label": "CC de la Région d&#x27;Audruicq"
+    "label": "CC de la Région d'Audruicq"
   },
   {
     "value": 246201016,
@@ -4273,7 +4273,7 @@ var listEPCI2 = [
   },
   {
     "value": 246400337,
-    "label": "CC de la Vallée d&#x27;Ossau"
+    "label": "CC de la Vallée d'Ossau"
   },
   {
     "value": 246401756,
@@ -4369,7 +4369,7 @@ var listEPCI2 = [
   },
   {
     "value": 246800395,
-    "label": "CC du Val d&#x27;Argent"
+    "label": "CC du Val d'Argent"
   },
   {
     "value": 246800445,
@@ -4405,11 +4405,11 @@ var listEPCI2 = [
   },
   {
     "value": 246900575,
-    "label": "CC de l&#x27;Est Lyonnais (CCEL)"
+    "label": "CC de l'Est Lyonnais (CCEL)"
   },
   {
     "value": 246900625,
-    "label": "CC du Pays de l&#x27;Arbresle (CCPA)"
+    "label": "CC du Pays de l'Arbresle (CCPA)"
   },
   {
     "value": 246900724,
@@ -4425,7 +4425,7 @@ var listEPCI2 = [
   },
   {
     "value": 246900765,
-    "label": "CC du Pays de l&#x27;Ozon"
+    "label": "CC du Pays de l'Ozon"
   },
   {
     "value": 247000011,
@@ -4453,7 +4453,7 @@ var listEPCI2 = [
   },
   {
     "value": 247000722,
-    "label": "CC du Pays d&#x27;Héricourt"
+    "label": "CC du Pays d'Héricourt"
   },
   {
     "value": 247000755,
@@ -4521,11 +4521,11 @@ var listEPCI2 = [
   },
   {
     "value": 247200686,
-    "label": "CC du Pays de l&#x27;Huisne Sarthoise"
+    "label": "CC du Pays de l'Huisne Sarthoise"
   },
   {
     "value": 247300015,
-    "label": "CC des Vallées d&#x27;Aigueblanche"
+    "label": "CC des Vallées d'Aigueblanche"
   },
   {
     "value": 247300254,
@@ -4549,7 +4549,7 @@ var listEPCI2 = [
   },
   {
     "value": 247300668,
-    "label": "CC du Lac d&#x27;Aiguebelette (CCLA)"
+    "label": "CC du Lac d'Aiguebelette (CCLA)"
   },
   {
     "value": 247300676,
@@ -4557,7 +4557,7 @@ var listEPCI2 = [
   },
   {
     "value": 247300817,
-    "label": "CC Les Versants d&#x27;Aime"
+    "label": "CC Les Versants d'Aime"
   },
   {
     "value": 247400047,
@@ -4597,7 +4597,7 @@ var listEPCI2 = [
   },
   {
     "value": 247400773,
-    "label": "CC des Sources du Lac d&#x27;Annecy"
+    "label": "CC des Sources du Lac d'Annecy"
   },
   {
     "value": 247600505,
@@ -4637,7 +4637,7 @@ var listEPCI2 = [
   },
   {
     "value": 247700065,
-    "label": "CC du Pays de l&#x27;Ourcq"
+    "label": "CC du Pays de l'Ourcq"
   },
   {
     "value": 247700107,
@@ -4645,7 +4645,7 @@ var listEPCI2 = [
   },
   {
     "value": 247700339,
-    "label": "CA Val d&#x27;Europe Agglomération"
+    "label": "CA Val d'Europe Agglomération"
   },
   {
     "value": 247700594,
@@ -4653,7 +4653,7 @@ var listEPCI2 = [
   },
   {
     "value": 247700644,
-    "label": "CC l&#x27;Orée de la Brie"
+    "label": "CC l'Orée de la Brie"
   },
   {
     "value": 247700701,
@@ -4669,7 +4669,7 @@ var listEPCI2 = [
   },
   {
     "value": 247800618,
-    "label": "CC Cœur d&#x27;Yvelines"
+    "label": "CC Cœur d'Yvelines"
   },
   {
     "value": 247900798,
@@ -4689,7 +4689,7 @@ var listEPCI2 = [
   },
   {
     "value": 248100158,
-    "label": "CC du Sor et de l&#x27;Agout"
+    "label": "CC du Sor et de l'Agout"
   },
   {
     "value": 248100430,
@@ -4701,7 +4701,7 @@ var listEPCI2 = [
   },
   {
     "value": 248100737,
-    "label": "CA de l&#x27;Albigeois (C2A)"
+    "label": "CA de l'Albigeois (C2A)"
   },
   {
     "value": 248100745,
@@ -4725,7 +4725,7 @@ var listEPCI2 = [
   },
   {
     "value": 248200107,
-    "label": "CC du Quercy Rouergue et des Gorges de l&#x27;Aveyron"
+    "label": "CC du Quercy Rouergue et des Gorges de l'Aveyron"
   },
   {
     "value": 248300394,
@@ -4757,7 +4757,7 @@ var listEPCI2 = [
   },
   {
     "value": 248400236,
-    "label": "CC du Pays Réuni d&#x27;Orange"
+    "label": "CC du Pays Réuni d'Orange"
   },
   {
     "value": 248400251,
@@ -4781,7 +4781,7 @@ var listEPCI2 = [
   },
   {
     "value": 248500191,
-    "label": "CC de l&#x27;Île de Noirmoutier"
+    "label": "CC de l'Île de Noirmoutier"
   },
   {
     "value": 248500258,
@@ -4861,15 +4861,15 @@ var listEPCI2 = [
   },
   {
     "value": 248900383,
-    "label": "CC de l&#x27;Agglomération Migennoise"
+    "label": "CC de l'Agglomération Migennoise"
   },
   {
     "value": 248900524,
-    "label": "CC de l&#x27;Aillantais"
+    "label": "CC de l'Aillantais"
   },
   {
     "value": 248900664,
-    "label": "CC de la Vanne et du Pays d&#x27;Othe"
+    "label": "CC de la Vanne et du Pays d'Othe"
   },
   {
     "value": 248900748,
@@ -4893,7 +4893,7 @@ var listEPCI2 = [
   },
   {
     "value": 249100546,
-    "label": "CC du Val d&#x27;Essonne (CCVE)"
+    "label": "CC du Val d'Essonne (CCVE)"
   },
   {
     "value": 249100553,
@@ -4913,11 +4913,11 @@ var listEPCI2 = [
   },
   {
     "value": 249500455,
-    "label": "CC de la Vallée de l&#x27;Oise et des Trois Forêts"
+    "label": "CC de la Vallée de l'Oise et des Trois Forêts"
   },
   {
     "value": 249500489,
-    "label": "CC du Haut Val d&#x27;Oise"
+    "label": "CC du Haut Val d'Oise"
   },
   {
     "value": 249500513,
@@ -4937,7 +4937,7 @@ var listEPCI2 = [
   },
   {
     "value": 249720053,
-    "label": "CA de l&#x27;Espace Sud de la Martinique"
+    "label": "CA de l'Espace Sud de la Martinique"
   },
   {
     "value": 249720061,
@@ -4945,7 +4945,7 @@ var listEPCI2 = [
   },
   {
     "value": 249730037,
-    "label": "CC de l&#x27;Ouest Guyanais"
+    "label": "CC de l'Ouest Guyanais"
   },
   {
     "value": 249730045,
@@ -4953,7 +4953,7 @@ var listEPCI2 = [
   },
   {
     "value": 249730052,
-    "label": "CC de l&#x27;Est Guyanais"
+    "label": "CC de l'Est Guyanais"
   },
   {
     "value": 249740077,
@@ -5013,7 +5013,7 @@ var listEPCI2 = [
   },
   {
     "value": 200058097,
-    "label": "Paris Terres d&#x27;Envol"
+    "label": "Paris Terres d'Envol"
   },
   {
     "value": 200058790,
